@@ -1,5 +1,5 @@
 - name: configuring {{ COMPONENT }}-server
-  hosts: aLL
+  hosts: all
   become: yes
   # vars_files:
   # - variables-{{ ENVIRONMENT }}.yaml
