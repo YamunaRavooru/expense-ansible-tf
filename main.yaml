@@ -1,5 +1,7 @@
-- name: configuring backend-server
-  hosts: app
+- name: configuring {{ COMPONENT }}-server
+  hosts: aLL
   become: yes
+  # vars_files:
+  # - variables-{{ ENVIRONMENT }}.yaml
   roles:
-  - backend
+  - "{{ COMPONENT }}"

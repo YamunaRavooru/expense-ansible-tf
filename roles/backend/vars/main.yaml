@@ -1,5 +1,5 @@
-mysql_root_password: ExpenseApp@1
+mysql_root_password: ExpenseApp1
 mysql_user: root
-mysql_host: mysql.daws82s.cloud
 APP_LOCAION: /app
 COMPONENT: backend
+mysql_host: mysql-{{ ENVIRONMENT }}.daws82s.cloud
