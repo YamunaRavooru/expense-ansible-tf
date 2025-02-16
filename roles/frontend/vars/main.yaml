@@ -1,0 +1,3 @@
+backend_host: backend.daws82s.cloud
+APP_LOCAION: /usr/share/nginx/html
+COMPONENT: frontend
